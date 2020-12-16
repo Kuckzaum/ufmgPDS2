@@ -8,6 +8,12 @@ using namespace std;
 #include "VPL5-1.cpp"
 
 int main() {
+    /*
+    Esse não é o melhor jeito de resolver esse problema, usar container seria
+    muito mais eficiente mas como até a altura dessa aula no curso não havia 
+    sido abordado esse tema vamos deixar como está. Mas nada impede vc de tentar
+    fazer usando containers.
+    */
     Estudante estudante[10];
     for(int i=0;i<10;i++) {
         cin>>estudante[i].matricula;
