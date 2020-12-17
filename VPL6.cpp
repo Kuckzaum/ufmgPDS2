@@ -56,7 +56,7 @@ int main() {
     cout << setprecision(2);
 
     string str = " ";
-    list<string> *palavras = new list<string>();
+    list<string> *palavras = new list<string>;
     
     while(str!=""){
         getline(cin,str);
@@ -85,6 +85,7 @@ int main() {
             out.insert(x.word);
         }
     }
-
+    
+    delete palavras;
     return 0;
 }
