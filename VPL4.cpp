@@ -11,7 +11,7 @@ int main() {
 
     double xc1, yc1, r1;
     cin >> xc1 >> yc1 >> r1;
-    Circunferencia* circ1 = new Circunferencia(xc1, yc1, r1);
+    Circunferencia* circ1 = new Circnferencia(xc1, yc1, r1);
 
     double xc2, yc2, r2;
     cin >> xc2 >> yc2 >> r2;
