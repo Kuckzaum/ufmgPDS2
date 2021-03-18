@@ -1,6 +1,7 @@
 #include <vector>
 #include <iostream>
 
+#include "Point.cpp"
 #include "Point.h"
 
 void readPoints(std::vector<Point> &vec) {
